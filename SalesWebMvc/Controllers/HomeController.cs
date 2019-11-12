@@ -19,6 +19,8 @@ namespace SalesWebMvc.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
+            ViewData["Eu"] = "Eu sou o João!";
+
             return View();
         }
 
